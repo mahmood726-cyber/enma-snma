@@ -1,0 +1,75 @@
+file,status,issues
+bnma__blocker_studies.csv,ISSUES,Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs
+bnma__parkinsons_studies.csv,ISSUES,Contains numeric/placeholder study IDs
+bnma__smoking_studies.csv,ISSUES,Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs
+bnma__statins_studies.csv,ISSUES,Contains numeric/placeholder study IDs
+bnma__thrombolytic_studies.csv,ISSUES,Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs
+BUGSnet__afib_studies.csv,ISSUES,Contains placeholder treatment labels (numbers or A-D)
+BUGSnet__parkinsons_arm_studies.csv,ISSUES,Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs
+BUGSnet__parkinsons_contrast.csv,ERROR,cannot access free variable 're' where it is not associated with a value in enclosing scope
+BUGSnet__thrombolytic_studies.csv,ISSUES,Contains numeric/placeholder study IDs
+catalogue.csv,ISSUES,Column 'covariates': 51 empty values (100.0%); Column 'issues': 28 empty values (54.9%)
+example_bin.csv,ISSUES,Contains placeholder treatment labels (numbers or A-D)
+example_bin_nodes.csv,ISSUES,Contains placeholder treatment labels (numbers or A-D)
+gemtc__atrialFibrillation.csv,ISSUES,Contains placeholder treatment labels (numbers or A-D)
+gemtc__atrialFibrillation_studies.csv,ISSUES,Contains placeholder treatment labels (numbers or A-D)
+gemtc__blocker.csv,ISSUES,Contains numeric/placeholder study IDs
+gemtc__blocker_studies.csv,ISSUES,Contains numeric/placeholder study IDs
+gemtc__parkinson_studies.csv,ISSUES,Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs
+gemtc__smoking.csv,ISSUES,Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs
+gemtc__smoking_studies.csv,ISSUES,Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs
+gemtc__thrombolytic.csv,ISSUES,Contains numeric/placeholder study IDs
+gemtc__thrombolytic_studies.csv,ISSUES,Contains numeric/placeholder study IDs
+MBNMAdose__psoriasis100_nodes.csv,EMPTY,File is empty
+MBNMAdose__psoriasis100_studies.csv,ISSUES,"57 empty treatment labels; 38 duplicate (study, treatment) rows"
+MBNMAdose__psoriasis75_nodes.csv,EMPTY,File is empty
+MBNMAdose__psoriasis75_studies.csv,ISSUES,"81 empty treatment labels; 53 duplicate (study, treatment) rows"
+MBNMAdose__psoriasis90_nodes.csv,EMPTY,File is empty
+MBNMAdose__psoriasis90_studies.csv,ISSUES,"71 empty treatment labels; 47 duplicate (study, treatment) rows"
+MBNMAdose__triptans_nodes.csv,EMPTY,File is empty
+MBNMAdose__triptans_studies.csv,ISSUES,"182 empty treatment labels; Contains numeric/placeholder study IDs; 112 duplicate (study, treatment) rows"
+multinma__atrial_fibrillation_nodes.csv,EMPTY,File is empty
+multinma__atrial_fibrillation_studies.csv,ISSUES,"63 empty treatment labels; 63 empty study labels; 62 duplicate (study, treatment) rows"
+multinma__bcg_vaccine_nodes.csv,EMPTY,File is empty
+multinma__bcg_vaccine_studies.csv,ISSUES,"26 empty treatment labels; 26 empty study labels; 25 duplicate (study, treatment) rows"
+multinma__blocker_nodes.csv,EMPTY,File is empty
+multinma__blocker_studies.csv,ISSUES,"44 empty treatment labels; 44 empty study labels; 43 duplicate (study, treatment) rows"
+multinma__diabetes_nodes.csv,EMPTY,File is empty
+multinma__diabetes_studies.csv,ISSUES,"48 empty treatment labels; 48 empty study labels; 47 duplicate (study, treatment) rows"
+multinma__dietary_fat_nodes.csv,EMPTY,File is empty
+multinma__dietary_fat_studies.csv,ISSUES,"21 empty treatment labels; 21 empty study labels; 20 duplicate (study, treatment) rows"
+multinma__parkinsons_nodes.csv,EMPTY,File is empty
+multinma__parkinsons_studies.csv,ISSUES,"15 empty treatment labels; 15 empty study labels; 14 duplicate (study, treatment) rows"
+multinma__smoking_nodes.csv,EMPTY,File is empty
+multinma__smoking_studies.csv,ISSUES,"50 empty treatment labels; 50 empty study labels; 49 duplicate (study, treatment) rows"
+multinma__social_anxiety_contrast.csv,ERROR,cannot access free variable 're' where it is not associated with a value in enclosing scope
+multinma__statins_nodes.csv,EMPTY,File is empty
+multinma__statins_studies.csv,ISSUES,"38 empty treatment labels; 38 empty study labels; 37 duplicate (study, treatment) rows"
+multinma__thrombolytics_nodes.csv,EMPTY,File is empty
+multinma__thrombolytics_studies.csv,ISSUES,"102 empty treatment labels; 102 empty study labels; 101 duplicate (study, treatment) rows"
+netmeta__Franchini2012_contrast.csv,ERROR,cannot access free variable 're' where it is not associated with a value in enclosing scope
+netmeta__parkinson_contrast.csv,ERROR,cannot access free variable 're' where it is not associated with a value in enclosing scope
+netmeta__Senn2013_contrast.csv,ERROR,cannot access free variable 're' where it is not associated with a value in enclosing scope
+netmeta__smokingcessation_contrast.csv,ERROR,24 empty study labels; cannot access free variable 're' where it is not associated with a value in enclosing scope
+netmeta__smokingcessation_nodes.csv,ISSUES,Column 'id': 1 empty values (20.0%); Column 'name': 1 empty values (20.0%)
+netmeta__smokingcessation_studies.csv,ISSUES,Column 'treatment': 22 empty values (30.6%); 22 empty treatment labels; Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs
+netmeta__Woods2010_studies.csv,ISSUES,"8 empty study labels; 4 duplicate (study, treatment) rows"
+nmaINLA__CooperStrokedat_contrast.csv,ERROR,26 empty study labels; cannot access free variable 're' where it is not associated with a value in enclosing scope
+nmaINLA__CooperStrokedat_studies.csv,ISSUES,16 empty treatment labels; Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs
+nmaINLA__Diabetesdat_contrast.csv,ERROR,27 empty study labels; cannot access free variable 're' where it is not associated with a value in enclosing scope
+nmaINLA__Dietaryfatdat_studies.csv,ISSUES,"9 empty treatment labels; Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs; 1 duplicate (study, treatment) rows"
+nmaINLA__IncDiabetesdat_contrast.csv,ERROR,22 empty study labels; cannot access free variable 're' where it is not associated with a value in enclosing scope
+nmaINLA__IncDiabetesdat_studies.csv,ISSUES,18 empty treatment labels; Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs
+nmaINLA__Parkinsondat_contrast.csv,ERROR,8 empty study labels; cannot access free variable 're' where it is not associated with a value in enclosing scope
+nmaINLA__Smokdat_contrast.csv,ERROR,24 empty study labels; cannot access free variable 're' where it is not associated with a value in enclosing scope
+nmaINLA__Smokdat_studies.csv,ISSUES,22 empty treatment labels; Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs
+nmaINLA__Strokedat_contrast.csv,ERROR,19 empty study labels; cannot access free variable 're' where it is not associated with a value in enclosing scope
+nmaINLA__Strokedat_studies.csv,ISSUES,16 empty treatment labels; Contains placeholder treatment labels (numbers or A-D); Contains numeric/placeholder study IDs
+pcnetmeta__diabetes_nodes.csv,EMPTY,File is empty
+pcnetmeta__diabetes_studies.csv,ISSUES,"48 empty treatment labels; 48 empty study labels; 47 duplicate (study, treatment) rows"
+pcnetmeta__dietaryfat_nodes.csv,EMPTY,File is empty
+pcnetmeta__dietaryfat_studies.csv,ISSUES,"21 empty treatment labels; 21 empty study labels; 20 duplicate (study, treatment) rows"
+pcnetmeta__parkinson_nodes.csv,EMPTY,File is empty
+pcnetmeta__parkinson_studies.csv,ISSUES,"15 empty treatment labels; 15 empty study labels; 14 duplicate (study, treatment) rows"
+pcnetmeta__smoke_nodes.csv,EMPTY,File is empty
+pcnetmeta__smoke_studies.csv,ISSUES,"50 empty treatment labels; 50 empty study labels; 49 duplicate (study, treatment) rows"

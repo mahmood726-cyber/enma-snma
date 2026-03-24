@@ -1,0 +1,25 @@
+Package: repo300
+Type: Package
+Title: Ensemble and Spectral Network Meta-Analysis (E-NMA / S-NMA)
+Version: 0.2.0
+Authors@R: c(
+    person(
+      "Mahmood", "Ahmad",
+      email = "mahmood726@gmail.com",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Laiba", "Khan",
+      role = "aut"
+    )
+  )
+Description: Two novel methods for network meta-analysis: Ensemble NMA (E-NMA)
+    resolves inconsistency via multi-method consensus and adaptive variance
+    inflation; Spectral NMA (S-NMA) detects inconsistency via graph Laplacian
+    eigen-decomposition. Includes a simulation engine with 10+ network
+    topologies, a method evaluator, and 121 curated NMA datasets.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: netmeta, gemtc, multinma
+Suggests: testthat

@@ -1,0 +1,11 @@
+{
+  "n_studies": 30,
+  "n_treatments": 5,
+  "n_arms": 79,
+  "n_connections": 8,
+  "connectivity_type": "loop",
+  "outcome_type": "binary",
+  "has_inconsistency": true,
+  "tau_squared": 0.04,
+  "i_squared": 0.5
+}

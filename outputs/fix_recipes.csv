@@ -1,0 +1,70 @@
+file,fixes
+bnma__blocker_studies.csv,Load from source package and extract treatment labels; Load from source package and extract study names
+bnma__parkinsons_studies.csv,Load from source package and extract study names
+bnma__smoking_studies.csv,Load from source package and extract treatment labels; Load from source package and extract study names
+bnma__statins_studies.csv,Load from source package and extract study names
+bnma__thrombolytic_studies.csv,Load from source package and extract treatment labels; Load from source package and extract study names
+BUGSnet__afib_studies.csv,Load from source package and extract treatment labels
+BUGSnet__parkinsons_arm_studies.csv,Load from source package and extract treatment labels; Load from source package and extract study names
+BUGSnet__thrombolytic_studies.csv,Load from source package and extract study names
+catalogue.csv,Impute or remove rows with empty values; Impute or remove rows with empty values
+example_bin.csv,Load from source package and extract treatment labels
+example_bin_nodes.csv,Load from source package and extract treatment labels
+gemtc__atrialFibrillation.csv,Load from source package and extract treatment labels
+gemtc__atrialFibrillation_studies.csv,Load from source package and extract treatment labels
+gemtc__blocker.csv,Load from source package and extract study names
+gemtc__blocker_studies.csv,Load from source package and extract study names
+gemtc__parkinson_studies.csv,Load from source package and extract treatment labels; Load from source package and extract study names
+gemtc__smoking.csv,Load from source package and extract treatment labels; Load from source package and extract study names
+gemtc__smoking_studies.csv,Load from source package and extract treatment labels; Load from source package and extract study names
+gemtc__thrombolytic.csv,Load from source package and extract study names
+gemtc__thrombolytic_studies.csv,Load from source package and extract study names
+MBNMAdose__psoriasis100_nodes.csv,Re-extract from source package
+MBNMAdose__psoriasis100_studies.csv,"Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+MBNMAdose__psoriasis75_nodes.csv,Re-extract from source package
+MBNMAdose__psoriasis75_studies.csv,"Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+MBNMAdose__psoriasis90_nodes.csv,Re-extract from source package
+MBNMAdose__psoriasis90_studies.csv,"Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+MBNMAdose__triptans_nodes.csv,Re-extract from source package
+MBNMAdose__triptans_studies.csv,"Impute or remove rows with empty values; Load from source package and extract study names; Remove duplicate (study, treatment) rows, keep first"
+multinma__atrial_fibrillation_nodes.csv,Re-extract from source package
+multinma__atrial_fibrillation_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+multinma__bcg_vaccine_nodes.csv,Re-extract from source package
+multinma__bcg_vaccine_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+multinma__blocker_nodes.csv,Re-extract from source package
+multinma__blocker_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+multinma__diabetes_nodes.csv,Re-extract from source package
+multinma__diabetes_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+multinma__dietary_fat_nodes.csv,Re-extract from source package
+multinma__dietary_fat_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+multinma__parkinsons_nodes.csv,Re-extract from source package
+multinma__parkinsons_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+multinma__smoking_nodes.csv,Re-extract from source package
+multinma__smoking_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+multinma__statins_nodes.csv,Re-extract from source package
+multinma__statins_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+multinma__thrombolytics_nodes.csv,Re-extract from source package
+multinma__thrombolytics_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+netmeta__smokingcessation_contrast.csv,Impute or remove rows with empty values
+netmeta__smokingcessation_nodes.csv,Impute or remove rows with empty values; Impute or remove rows with empty values
+netmeta__smokingcessation_studies.csv,Impute or remove rows with empty values; Impute or remove rows with empty values; Load from source package and extract treatment labels; Load from source package and extract study names
+netmeta__Woods2010_studies.csv,"Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+nmaINLA__CooperStrokedat_contrast.csv,Impute or remove rows with empty values
+nmaINLA__CooperStrokedat_studies.csv,Impute or remove rows with empty values; Load from source package and extract treatment labels; Load from source package and extract study names
+nmaINLA__Diabetesdat_contrast.csv,Impute or remove rows with empty values
+nmaINLA__Dietaryfatdat_studies.csv,"Impute or remove rows with empty values; Load from source package and extract treatment labels; Load from source package and extract study names; Remove duplicate (study, treatment) rows, keep first"
+nmaINLA__IncDiabetesdat_contrast.csv,Impute or remove rows with empty values
+nmaINLA__IncDiabetesdat_studies.csv,Impute or remove rows with empty values; Load from source package and extract treatment labels; Load from source package and extract study names
+nmaINLA__Parkinsondat_contrast.csv,Impute or remove rows with empty values
+nmaINLA__Smokdat_contrast.csv,Impute or remove rows with empty values
+nmaINLA__Smokdat_studies.csv,Impute or remove rows with empty values; Load from source package and extract treatment labels; Load from source package and extract study names
+nmaINLA__Strokedat_contrast.csv,Impute or remove rows with empty values
+nmaINLA__Strokedat_studies.csv,Impute or remove rows with empty values; Load from source package and extract treatment labels; Load from source package and extract study names
+pcnetmeta__diabetes_nodes.csv,Re-extract from source package
+pcnetmeta__diabetes_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+pcnetmeta__dietaryfat_nodes.csv,Re-extract from source package
+pcnetmeta__dietaryfat_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+pcnetmeta__parkinson_nodes.csv,Re-extract from source package
+pcnetmeta__parkinson_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"
+pcnetmeta__smoke_nodes.csv,Re-extract from source package
+pcnetmeta__smoke_studies.csv,"Impute or remove rows with empty values; Impute or remove rows with empty values; Remove duplicate (study, treatment) rows, keep first"

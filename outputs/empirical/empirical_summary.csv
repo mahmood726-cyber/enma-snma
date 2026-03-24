@@ -1,0 +1,4 @@
+Dataset,Treatments,Edges_ICS>0,Max_ICS,S-NMA_HF_ratio,S-NMA_p,S-NMA_inconsistency
+Smoking Cessation (Hasselblad 1998),4,5,0.33,0.225,0.5467,False
+Thrombolytic Therapy (Boland 2003),8,1,0.67,0.009,0.9424,False
+Parkinson's Disease (Franchini / gemtc),5,5,0.67,0.323,0.6366,False

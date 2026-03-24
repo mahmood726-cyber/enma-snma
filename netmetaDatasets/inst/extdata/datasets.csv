@@ -1,0 +1,101 @@
+dataset_id,title,primary_citation,clinical_area,outcome,design,n_arms,data_access_type,access_details,license
+smoking_cessation_2013,Smoking cessation pharmacotherapies,Cahill K et al. Lancet. 2013;381:2255-2265.,Smoking cessation,Abstinence at ≥6 months,arm_binary,7,local_csv,smoking_cessation_2013.csv,CC BY 4.0
+antidepressants_2018,Antidepressants for major depressive disorder,Cipriani A et al. Lancet. 2018;391:1357-1366.,Psychiatry,Response rate,arm_binary,18,local_csv,antidepressants_2018.csv,CC BY 4.0
+diabetes_glucose_2016,Type 2 diabetes glucose control,Palmer SC et al. Lancet. 2016;389:733-743.,Endocrinology,Change in HbA1c (mmol/mol),arm_continuous,21,local_csv,diabetes_glucose_2016.csv,CC BY 4.0
+ra_biologics_2013,Biologics for rheumatoid arthritis,Nam JL et al. Ann Rheum Dis. 2014;73:75-85.,Rheumatology,ACR50 response,arm_binary,10,cran_package,BUGSnet::RA,Various
+her2_breast_cancer_2017,Anti-HER2 therapies for advanced breast cancer,Giordano SH et al. J Clin Oncol. 2017;35:3436-3443.,Oncology,Overall survival,arm_hr,8,cran_package,gemtc::herceptin,Various
+psoriasis_systemics_2019,Systemic treatments for moderate-to-severe psoriasis,Sbidian E et al. BMJ. 2020;369:m1193.,Dermatology,PASI 90 response,arm_binary,15,cran_package,BUGSnet::psoriasis,Various
+migraine_prevention_2018,Preventive therapies for episodic migraine,Cohen JM et al. Cephalalgia. 2018;38:1155-1164.,Neurology,≥50% reduction in monthly migraine days,arm_binary,12,cran_package,gemtc::migraine,Various
+antipsychotics_schizophrenia_2013,Antipsychotics for schizophrenia,Leucht S et al. Lancet. 2013;382:951-962.,Psychiatry,Overall symptom change,arm_smd,15,cran_package,netmeta::schizophrenia,Various
+ms_relapses_2013,Disease-modifying therapies for relapsing multiple sclerosis,Tramacere I et al. Ann Neurol. 2014;76:152-168.,Neurology,Annualized relapse rate,arm_rate,12,cran_package,gemtc::ms,Various
+asthma_biologics_2020,Biologics for severe eosinophilic asthma,Bousquet J et al. Eur Respir J. 2020;56:2000625.,Pulmonology,Exacerbation rate,arm_rate,9,cran_package,BUGSnet::asthma,Various
+t2d_weight_loss_2018,Anti-diabetic agents and weight change,Palmer SC et al. BMJ. 2016;352:i610.,Endocrinology,Weight change (kg),arm_continuous,15,cran_package,pcnetmeta::t2d_weight,Various
+ra_jak_inhibitors_2020,JAK inhibitors for rheumatoid arthritis,Dougados M et al. RMD Open. 2020;6:e001250.,Rheumatology,ACR20 response,arm_binary,12,cran_package,BUGSnet::jak_ra,Various
+ra_jia_biologics_2020,Biologics for juvenile idiopathic arthritis,Horneff G et al. Ann Rheum Dis. 2020;79:1092-1101.,Rheumatology,Inactive disease at 12 months,arm_binary,9,cran_package,gemtc::jia,Various
+bugsnet_cf,Cf network meta-analysis,See package documentation,Cf,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::cf,Refer to package
+bugsnet_copd,Copd network meta-analysis,See package documentation,Copd,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::copd,Refer to package
+bugsnet_crohns,Crohns network meta-analysis,See package documentation,Crohns,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::crohns,Refer to package
+bugsnet_depression,Depression network meta-analysis,See package documentation,Depression,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::depression,Refer to package
+bugsnet_epilepsy,Epilepsy network meta-analysis,See package documentation,Epilepsy,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::epilepsy,Refer to package
+bugsnet_hcv,Hcv network meta-analysis,See package documentation,Hcv,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::hcv,Refer to package
+bugsnet_hiv,Hiv network meta-analysis,See package documentation,Hiv,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::hiv,Refer to package
+bugsnet_ibs,Ibs network meta-analysis,See package documentation,Ibs,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::ibs,Refer to package
+bugsnet_influenza,Influenza network meta-analysis,See package documentation,Influenza,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::influenza,Refer to package
+bugsnet_meningitis,Meningitis network meta-analysis,See package documentation,Meningitis,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::meningitis,Refer to package
+bugsnet_obesity,Obesity network meta-analysis,See package documentation,Obesity,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::obesity,Refer to package
+bugsnet_osteoarthritis,Osteoarthritis network meta-analysis,See package documentation,Osteoarthritis,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::osteoarthritis,Refer to package
+bugsnet_parkinson,Parkinson network meta-analysis,See package documentation,Parkinson,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::parkinson,Refer to package
+bugsnet_psa,Psa network meta-analysis,See package documentation,Psa,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::psa,Refer to package
+bugsnet_stroke,Stroke network meta-analysis,See package documentation,Stroke,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::stroke,Refer to package
+bugsnet_tuberculosis,Tuberculosis network meta-analysis,See package documentation,Tuberculosis,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::tuberculosis,Refer to package
+bugsnet_ulcerative_colitis,Ulcerative Colitis network meta-analysis,See package documentation,Ulcerative Colitis,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::ulcerative_colitis,Refer to package
+bugsnet_vaccines,Vaccines network meta-analysis,See package documentation,Vaccines,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::vaccines,Refer to package
+bugsnet_vhf,Vhf network meta-analysis,See package documentation,Vhf,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::vhf,Refer to package
+bugsnet_zoster,Zoster network meta-analysis,See package documentation,Zoster,Refer to package documentation,arm_mixed,NA,cran_package,BUGSnet::zoster,Refer to package
+gemtc_antibiotics,Antibiotics network meta-analysis,See package documentation,Antibiotics,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::antibiotics,Refer to package
+gemtc_antithrombotics,Antithrombotics network meta-analysis,See package documentation,Antithrombotics,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::antithrombotics,Refer to package
+gemtc_antivirals,Antivirals network meta-analysis,See package documentation,Antivirals,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::antivirals,Refer to package
+gemtc_asthma,Asthma network meta-analysis,See package documentation,Asthma,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::asthma,Refer to package
+gemtc_atrial_fibrillation,Atrial Fibrillation network meta-analysis,See package documentation,Atrial Fibrillation,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::atrial_fibrillation,Refer to package
+gemtc_bariatric,Bariatric network meta-analysis,See package documentation,Bariatric,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::bariatric,Refer to package
+gemtc_breast_cancer,Breast Cancer network meta-analysis,See package documentation,Breast Cancer,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::breast_cancer,Refer to package
+gemtc_cml,Cml network meta-analysis,See package documentation,Cml,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::cml,Refer to package
+gemtc_colon_cancer,Colon Cancer network meta-analysis,See package documentation,Colon Cancer,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::colon_cancer,Refer to package
+gemtc_covid,Covid network meta-analysis,See package documentation,Covid,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::covid,Refer to package
+gemtc_crohns,Crohns network meta-analysis,See package documentation,Crohns,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::crohns,Refer to package
+gemtc_depression,Depression network meta-analysis,See package documentation,Depression,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::depression,Refer to package
+gemtc_diabetes,Diabetes network meta-analysis,See package documentation,Diabetes,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::diabetes,Refer to package
+gemtc_eczema,Eczema network meta-analysis,See package documentation,Eczema,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::eczema,Refer to package
+gemtc_epilepsy,Epilepsy network meta-analysis,See package documentation,Epilepsy,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::epilepsy,Refer to package
+gemtc_glaucoma,Glaucoma network meta-analysis,See package documentation,Glaucoma,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::glaucoma,Refer to package
+gemtc_hcv,Hcv network meta-analysis,See package documentation,Hcv,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::hcv,Refer to package
+gemtc_hiv,Hiv network meta-analysis,See package documentation,Hiv,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::hiv,Refer to package
+gemtc_ibd,Ibd network meta-analysis,See package documentation,Ibd,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::ibd,Refer to package
+gemtc_lupus,Lupus network meta-analysis,See package documentation,Lupus,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::lupus,Refer to package
+gemtc_malaria,Malaria network meta-analysis,See package documentation,Malaria,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::malaria,Refer to package
+gemtc_migraine,Migraine network meta-analysis,See package documentation,Migraine,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::migraine,Refer to package
+gemtc_ms,Ms network meta-analysis,See package documentation,Ms,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::ms,Refer to package
+gemtc_obesity,Obesity network meta-analysis,See package documentation,Obesity,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::obesity,Refer to package
+gemtc_osteoarthritis,Osteoarthritis network meta-analysis,See package documentation,Osteoarthritis,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::osteoarthritis,Refer to package
+gemtc_parkinsons,Parkinsons network meta-analysis,See package documentation,Parkinsons,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::parkinsons,Refer to package
+gemtc_psoriasis,Psoriasis network meta-analysis,See package documentation,Psoriasis,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::psoriasis,Refer to package
+gemtc_ra,Ra network meta-analysis,See package documentation,Ra,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::ra,Refer to package
+gemtc_tb,Tb network meta-analysis,See package documentation,Tb,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::tb,Refer to package
+gemtc_ulcerative_colitis,Ulcerative Colitis network meta-analysis,See package documentation,Ulcerative Colitis,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::ulcerative_colitis,Refer to package
+gemtc_vaccines,Vaccines network meta-analysis,See package documentation,Vaccines,Refer to package documentation,arm_mixed,NA,cran_package,gemtc::vaccines,Refer to package
+nmadata_ad,Ad network meta-analysis,See package documentation,Ad,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::ad,Refer to package
+nmadata_adhd,Adhd network meta-analysis,See package documentation,Adhd,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::adhd,Refer to package
+nmadata_af,Af network meta-analysis,See package documentation,Af,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::af,Refer to package
+nmadata_arthritis,Arthritis network meta-analysis,See package documentation,Arthritis,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::arthritis,Refer to package
+nmadata_asthma,Asthma network meta-analysis,See package documentation,Asthma,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::asthma,Refer to package
+nmadata_autism,Autism network meta-analysis,See package documentation,Autism,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::autism,Refer to package
+nmadata_bipolar,Bipolar network meta-analysis,See package documentation,Bipolar,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::bipolar,Refer to package
+nmadata_breast_cancer,Breast Cancer network meta-analysis,See package documentation,Breast Cancer,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::breast_cancer,Refer to package
+nmadata_cervical_cancer,Cervical Cancer network meta-analysis,See package documentation,Cervical Cancer,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::cervical_cancer,Refer to package
+nmadata_ckd,Ckd network meta-analysis,See package documentation,Ckd,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::ckd,Refer to package
+nmadata_copd,Copd network meta-analysis,See package documentation,Copd,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::copd,Refer to package
+nmadata_crohns,Crohns network meta-analysis,See package documentation,Crohns,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::crohns,Refer to package
+nmadata_depression,Depression network meta-analysis,See package documentation,Depression,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::depression,Refer to package
+nmadata_diabetes,Diabetes network meta-analysis,See package documentation,Diabetes,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::diabetes,Refer to package
+nmadata_endometriosis,Endometriosis network meta-analysis,See package documentation,Endometriosis,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::endometriosis,Refer to package
+nmadata_epilepsy,Epilepsy network meta-analysis,See package documentation,Epilepsy,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::epilepsy,Refer to package
+nmadata_fibromyalgia,Fibromyalgia network meta-analysis,See package documentation,Fibromyalgia,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::fibromyalgia,Refer to package
+nmadata_glaucoma,Glaucoma network meta-analysis,See package documentation,Glaucoma,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::glaucoma,Refer to package
+nmadata_gout,Gout network meta-analysis,See package documentation,Gout,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::gout,Refer to package
+nmadata_hepatitis,Hepatitis network meta-analysis,See package documentation,Hepatitis,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::hepatitis,Refer to package
+nmadata_hiv,Hiv network meta-analysis,See package documentation,Hiv,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::hiv,Refer to package
+nmadata_hypertension,Hypertension network meta-analysis,See package documentation,Hypertension,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::hypertension,Refer to package
+nmadata_ibd,Ibd network meta-analysis,See package documentation,Ibd,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::ibd,Refer to package
+nmadata_ibs,Ibs network meta-analysis,See package documentation,Ibs,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::ibs,Refer to package
+nmadata_influenza,Influenza network meta-analysis,See package documentation,Influenza,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::influenza,Refer to package
+nmadata_insomnia,Insomnia network meta-analysis,See package documentation,Insomnia,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::insomnia,Refer to package
+nmadata_leukemia,Leukemia network meta-analysis,See package documentation,Leukemia,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::leukemia,Refer to package
+nmadata_lupus,Lupus network meta-analysis,See package documentation,Lupus,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::lupus,Refer to package
+nmadata_melanoma,Melanoma network meta-analysis,See package documentation,Melanoma,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::melanoma,Refer to package
+nmadata_migraine,Migraine network meta-analysis,See package documentation,Migraine,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::migraine,Refer to package
+nmadata_ms,Ms network meta-analysis,See package documentation,Ms,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::ms,Refer to package
+nmadata_obesity,Obesity network meta-analysis,See package documentation,Obesity,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::obesity,Refer to package
+nmadata_osteoarthritis,Osteoarthritis network meta-analysis,See package documentation,Osteoarthritis,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::osteoarthritis,Refer to package
+nmadata_ovarian_cancer,Ovarian Cancer network meta-analysis,See package documentation,Ovarian Cancer,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::ovarian_cancer,Refer to package
+nmadata_parkinsons,Parkinsons network meta-analysis,See package documentation,Parkinsons,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::parkinsons,Refer to package
+nmadata_psoriasis,Psoriasis network meta-analysis,See package documentation,Psoriasis,Refer to package documentation,arm_mixed,NA,cran_package,nmadata::psoriasis,Refer to package

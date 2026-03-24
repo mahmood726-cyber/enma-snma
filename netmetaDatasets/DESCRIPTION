@@ -1,0 +1,32 @@
+Package: netmetaDatasets
+Type: Package
+Title: Comprehensive Network Meta-Analysis Data Repository
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given = "OpenAI", family = "Assistant", role = c("aut", "cre"),
+           email = "assistant@example.com")
+)
+Description: Curated collection of real-world network meta-analysis datasets
+    accompanied by metadata, provenance information, and convenience loaders
+    to facilitate reproducible research and teaching. The package ships with
+    a growing list of network meta-analysis case studies sourced from
+    published systematic reviews across multiple therapeutic areas.
+License: MIT + file LICENSE
+URL: https://example.org/netmetaDatasets
+BugReports: https://example.org/netmetaDatasets/issues
+Depends: R (>= 3.6)
+Imports:
+    readr,
+    dplyr,
+    stringr,
+    tibble
+Suggests:
+    testthat (>= 3.0.0),
+    covr,
+    knitr,
+    rmarkdown
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Config/testthat/edition: 3

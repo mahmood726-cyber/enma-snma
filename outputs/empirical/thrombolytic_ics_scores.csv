@@ -1,0 +1,14 @@
+treat1,treat2,n_methods,n_flagged,ics
+ASPAC,AtPA,3,2,0.6666666666666666
+ASPAC,SK,3,0,0.0
+ASPAC,tPA,3,0,0.0
+AtPA,Ret,3,0,0.0
+AtPA,SK,3,0,0.0
+AtPA,SKtPA,3,0,0.0
+AtPA,Ten,1,0,0.0
+AtPA,UK,3,0,0.0
+Ret,SK,3,0,0.0
+SK,SKtPA,3,0,0.0
+SK,UK,3,0,0.0
+SK,tPA,3,0,0.0
+UK,tPA,3,0,0.0

@@ -1,0 +1,96 @@
+{
+  "title": "Ensemble and Spectral Network Meta-Analysis: Novel Inconsistency-Robust Methods",
+  "slug": "enma-snma-inconsistency-robust-nma",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-26",
+  "body": "Can ensemble and spectral approaches improve inconsistency detection and robustness in network meta-analysis compared to standard methods? We developed two novel methods evaluated across 100 simulation replications per scenario using five network topologies with varying heterogeneity and inconsistency, plus three canonical empirical datasets. Ensemble NMA synthesises three complementary inconsistency diagnostics into an Inconsistency Confidence Score per edge and inflates variance adaptively, while Spectral NMA applies graph Laplacian eigen-decomposition to detect inconsistency via high-frequency energy in treatment effect signals. The median coverage improvement for Ensemble NMA was 1.8 percentage points (95% CI 1.5-2.2) across scenarios where inconsistency was present, without increasing RMSE over standard network meta-analysis. Spectral NMA runs in milliseconds versus minutes for MCMC-based diagnostics and correctly identified inconsistent edges in the thrombolytic therapy dataset. These methods offer computationally efficient, complementary tools for assessing and accommodating inconsistency in evidence networks. A limitation is that simulations used normal approximations rather than exact binomial or survival data-generating processes.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Can ensemble and spectral approaches improve inconsistency detection and robustness in network meta-analysis compared to standard methods?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We developed two novel methods evaluated across 100 simulation replications per scenario using five network topologies with varying heterogeneity and inconsistency, plus three canonical empirical datasets."
+    },
+    {
+      "role": "Method",
+      "text": "Ensemble NMA synthesises three complementary inconsistency diagnostics into an Inconsistency Confidence Score per edge and inflates variance adaptively, while Spectral NMA applies graph Laplacian eigen-decomposition to detect inconsistency via high-frequency energy in treatment effect signals."
+    },
+    {
+      "role": "Primary result",
+      "text": "The median coverage improvement for Ensemble NMA was 1.8 percentage points (95% CI 1.5-2.2) across scenarios where inconsistency was present, without increasing RMSE over standard network meta-analysis."
+    },
+    {
+      "role": "Robustness",
+      "text": "Spectral NMA runs in milliseconds versus minutes for MCMC-based diagnostics and correctly identified inconsistent edges in the thrombolytic therapy dataset."
+    },
+    {
+      "role": "Interpretation",
+      "text": "These methods offer computationally efficient, complementary tools for assessing and accommodating inconsistency in evidence networks."
+    },
+    {
+      "role": "Boundary",
+      "text": "A limitation is that simulations used normal approximations rather than exact binomial or survival data-generating processes."
+    }
+  ],
+  "notes": {
+    "app": "repo300 E-NMA/S-NMA v0.2.0",
+    "data": "100 simulation replications x 5 topologies + 3 empirical NMA datasets (smoking, thrombolytics, Parkinson)",
+    "code": "https://github.com/mahmood726-cyber/enma-snma",
+    "doi": "",
+    "version": "0.2.0",
+    "date": "2026-03-26",
+    "validation": "DRAFT"
+  },
+  "type": "methods",
+  "primary_estimand": "Coverage improvement (percentage points)",
+  "validation": {
+    "status": "pass",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a confidence interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": true,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
